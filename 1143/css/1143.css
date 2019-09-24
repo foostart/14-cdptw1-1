@@ -1,3 +1,14 @@
+.type-1143 .nav-pills>li>a {
+  border-radius: 4px;
+  color: #000;
+  font-size: 14px;
+}
+.type-1143 .main_item > a:hover {
+  border-bottom: 4px solid #ff9931;
+  background: none;
+  color: #ff9931;
+  border-radius: 0;
+}
 .type-1143 .page-title .title_left {
   width: 45%;
   float: left;
@@ -7,7 +18,7 @@
   color: #73879C;
 }
 .type-1143 .page-title .title_right {
-  width: 55%;
+  width: 50%;
   float: left;
   display: block;
 }
