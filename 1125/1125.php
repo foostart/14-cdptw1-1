@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
     <head>
-        <title></title>
+        <title>1125</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,10 +16,10 @@
         $less = new lessc;
         $less->compileFile('less/25-4.less', 'css/25-4.css');
         ?>
-        <link href="css/25-4.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/custom.min.js" type="text/javascript"></script>
+        <link href="css/25-4.css" rel="stylesheet"  />
+        <script src="js/jquery.min.js" ></script>
+        <script src="js/bootstrap.min.js" ></script>
+        <script src="js/custom.min.js"></script>
     </head>
 
     <body>

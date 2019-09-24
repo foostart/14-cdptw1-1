@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
     <head>
-        <title></title>
+        <title>1120</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,8 +17,8 @@
         $less->compileFile('less/type-25-header.less', 'css/type-25-header.css');
         ?>
         <link href="css/type-25-header.css" rel="stylesheet" type="text/css" />
-        <script src="js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/jquery-2.1.4.min.js" ></script>
+        <script src="js/bootstrap.js"></script>
     </head>
 
     <body>
@@ -32,11 +32,11 @@
                             <div class="row nav_menu">
                                 <nav>
                                     <a href="#" id="menu-toggle"><i class="fa fa-bars"></i></a>
-                                    <ul class="nav navbar-nav navbar-right">
+                                    <div class="nav navbar-nav navbar-right">
                                         <div class="drop">
-                                            <div type="button" class="bt" data-toggle="collapse" data-target="#john">
-                                                <a>
-                                                    <img src="images/img.jpg" alt="">John Doe
+                                            <div  class="bt" data-toggle="collapse" data-target="#john">
+                                                <a href="#">
+                                                    <img src="images/img.jpg" alt="hinh1">John Doe
                                                     <span class="fa fa-chevron-down"></span>
                                                 </a>
                                                 <h5>&nbsp;</h5>
@@ -44,22 +44,22 @@
                                             <div id="john" class="collapse">
                                                 <div class="c_john">
                                                     <ul>
-                                                        <li><a> Profile</a></li>
+                                                        <li><a href="#"> Profile</a></li>
                                                         <li>
-                                                            <a>
+                                                            <a href="#">
                                                                 <span class="badge bg-red ">50%</span>
                                                                 <span>Settings</span>
                                                             </a>
                                                         </li>
-                                                        <li><a>Help</a></li>
-                                                        <li><a><i class="fa fa-sign-out "></i> Log Out</a></li>
+                                                        <li><a href="#">Help</a></li>
+                                                        <li><a href="#"><i class="fa fa-sign-out "></i> Log Out</a></li>
                                                     </ul>                
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="drop">
-                                            <div type="button" class="bt" data-toggle="collapse" data-target="#mail">
-                                                <a>
+                                            <div  class="bt" data-toggle="collapse" data-target="#mail">
+                                                <a href="#">
                                                     <i class="fa fa-envelope-o"></i>
                                                     <span class="badge bg-green">6</span>
                                                 </a>
@@ -128,7 +128,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </ul>
+                                    </div>
                                 </nav>
                             </div>
                         </div>

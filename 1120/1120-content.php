@@ -46,7 +46,7 @@
                                                     <ul>
                                                         <li><a> Profile</a></li>
                                                         <li>
-                                                            <a>
+                                                            <a >
                                                                 <span class="badge bg-red ">50%</span>
                                                                 <span>Settings</span>
                                                             </a>

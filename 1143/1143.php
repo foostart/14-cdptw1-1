@@ -19,7 +19,7 @@
 ?>
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
     <head>
         <title> 1143 </title>
