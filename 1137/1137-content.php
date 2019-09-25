@@ -10,7 +10,45 @@
 
     
         <div class="type-1137">
+        
             <div class="container-fluid">
+            <div class="container mega_menu_container">
+                    <nav class="nav-main mega-menu">
+                        <ul id="mainMenu" class="nav navbar nav-pills nav-main">
+                            <li class="dropdown main_item main_item_click">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle" data-toggle="dropdown">Home</a>
+                            </li>
+                            <li class="dropdown main_item mega_menu_item main_item_click">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle active">Courses</a>
+                            </li>
+                            <li class="dropdown main_item  main_item_click">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Element</a>
+                            </li>
+                            <li class="dropdown main_item main_item_click">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle" data-toggle="dropdown">Blog</a>
+                            </li>
+                            <li class="dropdown main_item main_item_click">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Pages</a>
+                            </li>
+                            <li class="dropdown main_item">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">About</a>
+                            </li>
+                            <li class="dropdown main_item">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Contact Us</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+                    <div class="lms_search_toggle" onclick="openSearch()" >
+                        <a class="fa fa-search"></a>
+                    </div>
+                    <div class="lms_search_wrapper" id="my_search_box" style="display: none"> 
+                        <form method="get" action="#">
+                            <input type="search" value="" placeholder="Search..." name="s" id="cs" class="form-control">
+                        </form> 
+                    </div>
+                </div>
+            </div>
                 <div class="row">
                     <div class="col-md-2">
                     </div>
