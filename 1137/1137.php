@@ -32,7 +32,7 @@
     </head>
 
     <body>
-       <?php  $dir_block.include'1137-content.php'; ?>
+       <?php  include'./1137-content.php'; ?>
     </body>
 
 </html>
