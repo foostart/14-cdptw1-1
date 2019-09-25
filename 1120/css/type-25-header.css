@@ -1,7 +1,19 @@
 .type-25-header .nav_menu {
+  position: relative;
   background-color: #ededed;
   border-bottom: 1px solid #d9dee4;
   height: 60px;
+}
+.type-25-header .nav_menu #myLinks {
+  display: none;
+  margin-left: 60px;
+  margin-top: 17px;
+  position: absolute;
+}
+.type-25-header .nav_menu #myLinks a {
+  color: #000;
+  font-size: 17px;
+  padding-left: 20px;
 }
 .type-25-header .nav_menu #menu-toggle {
   padding: 15px 15px 0;
@@ -152,4 +164,15 @@
   padding: 5px;
   margin: 6px;
   background: #f5f5f5;
+}
+@media (max-width: 720px) {
+  #myLinks {
+    display: none;
+    margin-left: 0px;
+  }
+  #myLinks a {
+    color: #000;
+    font-size: 15px;
+    padding-left: 0;
+  }
 }

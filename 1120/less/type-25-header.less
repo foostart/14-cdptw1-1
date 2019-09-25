@@ -2,9 +2,21 @@
     @font-size: 11px;
     @color:#fff;
     .nav_menu {
+        position: relative;
         background-color:#ededed;
         border-bottom: 1px solid #d9dee4;
         height:60px;
+        #myLinks {
+            display: none;
+            margin-left: 60px;
+            margin-top: 17px;
+            position: absolute;;
+            a {
+                color: #000;
+                font-size: 17px;
+                padding-left: 20px;
+              }
+          }
         #menu-toggle{
             padding: 15px 15px 0;
             margin: 0;
@@ -164,5 +176,20 @@
 
     }
 }
+@media(max-width:720px){
+    #myLinks {
+        display: none;
+       
+        margin-left:0px;
+        a {
+            color: #000;
+            font-size: 15px;
+            padding-left: 0;
+          }
+      }
+  
+}
+
+
 
 
