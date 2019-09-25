@@ -23,120 +23,138 @@
 
     <body>
 
-        <div class="type-25-header">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-10">
-                        <div class="right-col">
-                            <div class="row nav_menu">
-                                <nav>
-                                    <a href="#" id="menu-toggle"><i class="fa fa-bars"></i></a>
-                                    <ul class="nav navbar-nav navbar-right">
-                                        <div class="drop">
-                                            <div type="button" class="bt" data-toggle="collapse" data-target="#john">
-                                                <a>
-                                                    <img src="images/img.jpg" alt="">John Doe
-                                                    <span class="fa fa-chevron-down"></span>
-                                                </a>
-                                                <h5>&nbsp;</h5>
-                                            </div>
-                                            <div id="john" class="collapse">
-                                                <div class="c_john">
-                                                    <ul>
-                                                        <li><a> Profile</a></li>
-                                                        <li>
-                                                            <a >
-                                                                <span class="badge bg-red ">50%</span>
-                                                                <span>Settings</span>
-                                                            </a>
-                                                        </li>
-                                                        <li><a>Help</a></li>
-                                                        <li><a><i class="fa fa-sign-out "></i> Log Out</a></li>
-                                                    </ul>                
-                                                </div>
+    <div class="type-25-header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-10">
+                    <div class="right-col">
+                        <div class="row nav_menu">
+                        
+                            <nav>
+                            <div id="myLinks">
+                                    <a href="#news"> News </a>
+                                    <a href="#contact"> Contact</a>
+                                    <a href="#contact"> pages</a>
+                                    <a href="#about"> Blogs </a>
+                                </div>
+                                <a href="javascript:void(0);" id="menu-toggle" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+                                <div class="nav navbar-nav navbar-right">
+                                    <div class="drop">
+                                        <div  class="bt" data-toggle="collapse" data-target="#john">
+                                            <a href="#">
+                                                <img src="images/img.jpg" alt="hinh1">John Doe
+                                                <span class="fa fa-chevron-down"></span>
+                                            </a>
+                                            <h5>&nbsp;</h5>
+                                        </div>
+                                        <div id="john" class="collapse">
+                                            <div class="c_john">
+                                                <ul>
+                                                    <li><a href="#"> Profile</a></li>
+                                                    <li>
+                                                        <a href="#">
+                                                            <span class="badge bg-red ">50%</span>
+                                                            <span>Settings</span>
+                                                        </a>
+                                                    </li>
+                                                    <li><a href="#">Help</a></li>
+                                                    <li><a href="#"><i class="fa fa-sign-out "></i> Log Out</a></li>
+                                                </ul>                
                                             </div>
                                         </div>
-                                        <div class="drop">
-                                            <div type="button" class="bt" data-toggle="collapse" data-target="#mail">
-                                                <a>
-                                                    <i class="fa fa-envelope-o"></i>
-                                                    <span class="badge bg-green">6</span>
-                                                </a>
-                                                <h5>&nbsp;</h5>
-                                            </div>
-                                            <div id="mail" class="collapse">
-                                                <div class="c_mail">
-                                                    <ul>
-                                                        <li class="ago">
+                                    </div>
+                                    <div class="drop">
+                                        <div  class="bt" data-toggle="collapse" data-target="#mail">
+                                            <a href="#">
+                                                <i class="fa fa-envelope-o"></i>
+                                                <span class="badge bg-green">6</span>
+                                            </a>
+                                            <h5>&nbsp;</h5>
+                                        </div>
+                                        <div id="mail" class="collapse">
+                                            <div class="c_mail">
+                                                <ul>
+                                                    <li class="ago">
+                                                        <a>
+                                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                                                            <span>
+                                                                <span>John Smith</span>
+                                                                <span class="time">3 mins ago</span>
+                                                            </span>
+                                                            <span class="message">
+                                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="ago">
+                                                        <a>
+                                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                                                            <span>
+                                                                <span>John Smith</span>
+                                                                <span class="time">3 mins ago</span>
+                                                            </span>
+                                                            <span class="message">
+                                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="ago">
+                                                        <a>
+                                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                                                            <span>
+                                                                <span>John Smith</span>
+                                                                <span class="time">3 mins ago</span>
+                                                            </span>
+                                                            <span class="message">
+                                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="ago">
+                                                        <a>
+                                                            <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
+                                                            <span>
+                                                                <span>John Smith</span>
+                                                                <span class="time">3 mins ago</span>
+                                                            </span>
+                                                            <span class="message">
+                                                                Film festivals used to be do-or-die moments for movie makers. They were where...
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="ago">
+                                                        <div class="text-center">
                                                             <a>
-                                                                <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
-                                                                <span>
-                                                                    <span>John Smith</span>
-                                                                    <span class="time">3 mins ago</span>
-                                                                </span>
-                                                                <span class="message">
-                                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                                </span>
+                                                                <strong>See All Alerts</strong>
+                                                                <i class="fa fa-angle-right"></i>
                                                             </a>
-                                                        </li>
-                                                        <li class="ago">
-                                                            <a>
-                                                                <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
-                                                                <span>
-                                                                    <span>John Smith</span>
-                                                                    <span class="time">3 mins ago</span>
-                                                                </span>
-                                                                <span class="message">
-                                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="ago">
-                                                            <a>
-                                                                <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
-                                                                <span>
-                                                                    <span>John Smith</span>
-                                                                    <span class="time">3 mins ago</span>
-                                                                </span>
-                                                                <span class="message">
-                                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="ago">
-                                                            <a>
-                                                                <span class="image"><img src="images/img.jpg" alt="Profile Image"></span>
-                                                                <span>
-                                                                    <span>John Smith</span>
-                                                                    <span class="time">3 mins ago</span>
-                                                                </span>
-                                                                <span class="message">
-                                                                    Film festivals used to be do-or-die moments for movie makers. They were where...
-                                                                </span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="ago">
-                                                            <div class="text-center">
-                                                                <a>
-                                                                    <strong>See All Alerts</strong>
-                                                                    <i class="fa fa-angle-right"></i>
-                                                                </a>
-                                                            </div>
-                                                        </li>
-                                                    </ul>                
-                                                </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>                
                                             </div>
                                         </div>
-                                    </ul>
-                                </nav>
-                            </div>
+                                    </div>
+                                </div>
+                            </nav>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
+
+    </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
     </body>
 
 </html>
