@@ -2,8 +2,11 @@
   color: #73879C;
   font-size: 13px;
 }
+.type-25-4 .content4 a:hover {
+  color: red;
+}
 .type-25-4 .content4 a {
-  color: #5A738E;
+  color: blue;
   text-decoration: none;
 }
 .type-25-4 .content4 .x_panel {

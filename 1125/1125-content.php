@@ -24,7 +24,7 @@
 
     <body>
 
-        <div class="type-25-4">
+    <div class="type-25-4">
             <div class="container-fluid">
                 <div class="row">
                     <div class=" col-md-2">
@@ -42,9 +42,11 @@
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
                                                 <ul class="dropdown-menu" role="menu">
-                                                    <li><a href="#">Settings 1</a>
+                                                      <li><a href="#">Chỉnh sưa</a>
                                                     </li>
-                                                    <li><a href="#">Settings 2</a>
+                                                    <li><a href="#">kích thước</a>
+                                                    </li>
+                                                    <li><a href="#">màu sắc</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -65,7 +67,7 @@
                                                         <div class="byline">
                                                             <span>13 hours ago</span> by <a>Jane Smith</a>
                                                         </div>
-                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a href="#">Read&nbsp;More</a>
                                                         </p>
                                                     </div>
                                                 </li>
@@ -77,7 +79,7 @@
                                                         <div class="byline">
                                                             <span>13 hours ago</span> by <a>Jane Smith</a>
                                                         </div>
-                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a href="#">Read&nbsp;More</a>
                                                         </p>
                                                     </div>
                                                 </li>
@@ -89,7 +91,7 @@
                                                         <div class="byline">
                                                             <span>13 hours ago</span> by <a>Jane Smith</a>
                                                         </div>
-                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a href="#">Read&nbsp;More</a>
                                                         </p>
                                                     </div>
                                                 </li>
@@ -101,7 +103,7 @@
                                                         <div class="byline">
                                                             <span>13 hours ago</span> by <a>Jane Smith</a>
                                                         </div>
-                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a>Read&nbsp;More</a>
+                                                        <p>Film festivals used to be do-or-die moments for movie makers. They were where you met the producers that could fund your project, and if the buyers liked your flick, they’d pay to Fast-forward and… <a href="#">Read&nbsp;More</a>
                                                         </p>
                                                     </div>
                                                 </li>
