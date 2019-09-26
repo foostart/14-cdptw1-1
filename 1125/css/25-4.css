@@ -89,7 +89,7 @@
   color: #aab6aa;
   font-style: italic;
 }
-@media (max-width: 1200px) {
+@media (max-width: 720px) {
   small {
     display: none;
   }
