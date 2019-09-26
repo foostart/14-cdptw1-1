@@ -5,7 +5,7 @@
   height: 60px;
 }
 .type-25-header .nav_menu #myLinks a:hover {
-  color: red;
+  color: blue;
 }
 .type-25-header .nav_menu #myLinks {
   display: none;
@@ -172,11 +172,15 @@
 @media (max-width: 720px) {
   #myLinks {
     display: none;
-    margin-left: 0px;
   }
   #myLinks a {
     color: #000;
     font-size: 15px;
-    padding-left: 0;
+  }
+  .bt .aaa {
+    display: none;
+  }
+  .bt a {
+    font-size: 10px;
   }
 }

@@ -42,7 +42,7 @@
                                 <div class="nav navbar-nav navbar-right">
                                     <div class="drop">
                                         <div  class="bt" data-toggle="collapse" data-target="#john">
-                                            <a href="#">
+                                            <a href="#" >
                                                 <img src="images/img.jpg" alt="hinh1">John Doe
                                                 <span class="fa fa-chevron-down"></span>
                                             </a>
@@ -66,7 +66,7 @@
                                     </div>
                                     <div class="drop">
                                         <div  class="bt" data-toggle="collapse" data-target="#mail">
-                                            <a href="#">
+                                            <a href="#" class="aaa">
                                                 <i class="fa fa-envelope-o"></i>
                                                 <span class="badge bg-green">6</span>
                                             </a>
