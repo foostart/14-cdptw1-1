@@ -33,7 +33,7 @@ $less->compileFile('less/679.less', 'css/679.css');
         <script src="js/javascript.js" ></script>
     </head>
     <body>
-        <?php include '/.679-content.php'; ?>
+        <?php include './679-content.php'; ?>
     </body>
 
 </html>
