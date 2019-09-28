@@ -32,9 +32,7 @@
                             <li class="dropdown main_item">
                                 <a href="#" class="dropdown-toggle par_dropdown_toggle">About</a>
                             </li>
-                            <li class="dropdown main_item">
-                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Contact Us</a>
-                            </li>
+                            
                         </ul>
 
                     </nav>
