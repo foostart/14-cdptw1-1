@@ -1,3 +1,28 @@
+.type-25-4 img {
+  margin-left: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.type-25-4 .timeplate {
+  margin-bottom: 50px;
+  background: #f6f6f6;
+  padding: 20px;
+}
+.type-25-4 .timeplate .title_ourstory {
+  font-size: 17px;
+  line-height: 54.4px;
+  color: #212121;
+  position: relative;
+  margin-left: 85px;
+}
+.type-25-4 .timeplate .title-13::before {
+  width: 70px;
+  height: 3px;
+  background: #d65679;
+  position: absolute;
+  content: '';
+  margin-top: 45px;
+}
 .type-25-4 .content4 {
   color: #73879C;
   font-size: 13px;
@@ -78,6 +103,9 @@
   font-size: 12px;
   font-weight: 500;
 }
+.type-25-4 .content4 .kcah {
+  margin-bottom: 55px;
+}
 .type-25-4 .content4 p {
   padding: 0px;
   margin-top: 10px;
@@ -88,6 +116,9 @@
   line-height: 1.3;
   color: #aab6aa;
   font-style: italic;
+}
+.type-25-4 .content4 .x_title img {
+  margin-top: 50px;
 }
 @media (max-width: 720px) {
   small {

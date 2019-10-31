@@ -27,10 +27,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/1143.css" rel="stylesheet" type="text/css" />
+        <script src="js/jquery.min.js" ></script>
+        <script src="js/bootstrap.js"></script>
     </head>
 
     <body>
-       <?php  include'./1143-content.php'; ?>
+       <?php  $dir_block.include'1143-content.php'; ?>
     </body>
 
 </html>

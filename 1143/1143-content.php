@@ -32,7 +32,17 @@
                             <li class="dropdown main_item">
                                 <a href="#" class="dropdown-toggle par_dropdown_toggle">About</a>
                             </li>
-                            
+                            <li class="dropdown main_item">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">Contact Us</a>
+                            </li>
+                            <li class="dropdown main_item" style="float:right;">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">/  REGISTER</a>
+                            </li>
+                            <li class="dropdown main_item" style="float:right;">
+                                <a href="#" class="dropdown-toggle par_dropdown_toggle">LOGIN</a>
+                            </li>
+                          
+                           
                         </ul>
 
                     </nav>
@@ -73,5 +83,36 @@
                 </div>
             </div>
         </div>
-    
+        <div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"><h3>Form Buttons</h3></a>
+  <div id="myLinks">
+    <a href="#news">Home</a>
+    <a href="#contact">News</a>
+    <a href="#about">Sports</a>
+    <a href="#about">Blog</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()"> =
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
 

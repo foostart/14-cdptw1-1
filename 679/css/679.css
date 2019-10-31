@@ -1,3 +1,37 @@
+.type-679 .mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+.type-679 .topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+.type-679 .topnav #myLinks {
+  display: none;
+}
+.type-679 .topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+.type-679 .topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.type-679 .topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 .type-679 a {
   text-decoration: none;
   color: white;
@@ -30,7 +64,6 @@
   margin-bottom: -108px;
   position: relative;
   max-width: 1170px;
-  -webkit-transition: all 0.3s;
 }
 .type-679 .lms_header_top {
   background: black;
@@ -210,4 +243,57 @@
 }
 .type-679 .lms_page_title .lms_page_title_bg_overlay .container .breadcrumb li:last-child {
   color: #ff9933;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 9999999;
+  right: 0;
+  float: right;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.click-menu {
+  display: none;
+  right: 50px;
+  color: #fff;
+  position: relative;
+  float: right;
+  top: -280px;
+  z-index: 999999;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .click-menu {
+    margin-top: -35px;
+    display: block;
+  }
 }

@@ -11,19 +11,22 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <?php
     if (!class_exists('lessc')) {
-        include ('./libs/lessc.inc.php');
+        include('./libs/lessc.inc.php');
     }
     $less = new lessc;
     $less->compileFile('less/type-25-header.less', 'css/type-25-header.css');
     ?>
     <link href="css/type-25-header.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery-2.1.4.min.js" ></script>
+    <link rel="stylesheet" href="./package/css/swiper.min.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="./package/js/swiper.min.js"></script>
+    <script src="js/javascript.js"></script>
 </head>
 
 <body>
 
-<?php include './1120-content.php'; ?>
+    <?php include './1120-content.php'; ?>
 </body>
 
 </html>
